@@ -1,0 +1,219 @@
+{
+  "recetas": [
+    {
+      "nombre": "Crema fría de yogur",
+      "dietas": [
+        "vegetariano",
+        "sin gluten",
+        "sin huevo",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin pescado",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "2 tazas de yogur natural",
+        "1 taza de caldo de verduras",
+        "1 cucharada de pulpa de tamarindo",
+        "1/4 cucharadita de cardamomo molido",
+        "1/8 cucharadita de pimentón",
+        "1/4 cucharadita de cilantro en polvo",
+        "1 cucharadita de jengibre rallado",
+        "1 cucharada de menta",
+        "Sal"
+      ],
+      "calorias": 325.6976
+    },
+    {
+      "nombre": "Pollo asado",
+      "dietas": [
+        "paleo",
+        "sin lactosa",
+        "sin gluten",
+        "sin huevo",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin pescado",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "1 Pollo entero",
+        "1 Limón",
+        "2 ramitas de estragón o perejil"
+      ],
+      "calorias": 2938.965
+    },
+    {
+      "nombre": "Rollitos de salmón ahumado",
+      "dietas": [
+        "sin gluten",
+        "sin huevo",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "1 plancha de pan de molde integral",
+        "200 g de salmón ahumado",
+        "1 tarrina de queso cremoso",
+        "Eneldo fresco",
+        "Pimienta"
+      ],
+      "calorias": 3093.916
+    },
+    {
+      "nombre": "Fish and chips",
+      "dietas": [
+        "sin lactosa",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "1/2 Kg. de filetes de pescado blanco",
+        "1/4 l. de cerveza",
+        "Harina",
+        "1 huevo",
+        "2 patatas",
+        "Aceite",
+        "Sal",
+        "Pimienta",
+        "Cebollino fresco"
+      ],
+      "calorias": 961.1078
+    },
+    {
+      "nombre": "Tacos",
+      "dietas": [
+        "sin lactosa",
+        "sin gluten",
+        "sin huevo",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin pescado",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "1 cucharada de aceite vegetal",
+        "1 lata de 25 oz de guiso de corned beef (carne de ternera en granos)",
+        "8 tortillas de maíz"
+      ],
+      "calorias": 1004.2235
+    },
+    {
+      "nombre": "Halva de zanahorias",
+      "dietas": [
+        "vegetariano",
+        "sin gluten",
+        "sin huevo",
+        "sin cacahuetes",
+        "sin soja",
+        "sin pescado",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "3 tazas de zanahoria rallada",
+        "2 tazas de leche",
+        "1/2 taza de queso ricotta",
+        "2 cucharadas de miel",
+        "1/4 taza de pasas",
+        "2 cucharadas de pistachos picados",
+        "1 cucharadita de cardamomo",
+        "1 pizca de clavo"
+      ],
+      "calorias": 1371.0346
+    },
+    {
+      "nombre": "Spaguetti con Panceta",
+      "dietas": [
+        "paleo",
+        "sin lactosa",
+        "sin gluten",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin pescado",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "500 grs spaguetti al huevo",
+        "1 cebolla",
+        "1 morron",
+        "1 tomate",
+        "100 grs de panceta",
+        "Oregano",
+        "Perejil",
+        "1 cda aceite"
+      ],
+      "calorias": 1252.971
+    },
+    {
+      "nombre": "Arroz frito con gambón",
+      "dietas": [
+        "sin lactosa",
+        "sin gluten",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin pescado"
+      ],
+      "ingredientes": [
+        "2 Huevos",
+        "2 cucharaditas de aceite de sésamo",
+        "1 cucharada de aceite de girasol",
+        "2 cucharaditas de jengibre rallado",
+        "1 Chili rojo fresco",
+        "4 tallos de cebolleta",
+        "10 colas de gambón o langostino crudos y pelados",
+        "4 tazas de arroz jazmín cocido",
+        "Salsa de soja para servir",
+        "Salsa de chili para servir"
+      ],
+      "calorias": 1247.264
+    },
+    {
+      "nombre": "Pancakes con chocolate",
+      "dietas": [
+        "vegetariano",
+        "sin huevo",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin soja",
+        "sin pescado",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "1 taza harina para pancake",
+        "2/3 taza leche o agua",
+        "Chocolate chips"
+      ],
+      "calorias": 1453.0266
+    },
+    {
+      "nombre": "Cheesecake",
+      "dietas": [
+        "vegetariano",
+        "sin cacahuetes",
+        "sin frutos secos",
+        "sin pescado",
+        "sin marisco"
+      ],
+      "ingredientes": [
+        "500 gr. de queso mascarpone",
+        "400 gr. de galletas María",
+        "4 huevos",
+        "120 gr. de azúcar",
+        "150 gr. de mantequilla",
+        "100 gr. de mermelada de fruta",
+        "50 ml. de brandy",
+        "Aceite de oliva"
+      ],
+      "calorias": 5876.5172
+    }
+  ]
+}

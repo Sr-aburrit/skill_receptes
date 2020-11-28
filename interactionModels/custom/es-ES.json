@@ -1,0 +1,347 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "recetas cocina",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CuantasCalorias",
+          "slots": [
+            {
+              "name": "plato",
+              "type": "Platos",
+              "samples": [
+                "De {plato}",
+                "{plato}"
+              ]
+            }
+          ],
+          "samples": [
+            "Calorías de el {plato}",
+            "Calorías de la {plato}",
+            "Calorías de {plato}",
+            "Cuántas calorías tiene el plato",
+            "Cuántas calorías tiene la {plato}",
+            "Cuántas calorías tiene el {plato}"
+          ]
+        },
+        {
+          "name": "QueRecetasHay",
+          "slots": [],
+          "samples": [
+            "Qué recetas tienes",
+            "De qué recetas tienes información",
+            "Qué recetas puedo cocinar",
+            "Qué recetas hay guardadas",
+            "Qué recetas hay"
+          ]
+        },
+        {
+          "name": "RecetaConMasCalorias",
+          "slots": [],
+          "samples": [
+            "Qué receta tiene más calorías",
+            "Cuál es la receta con más calorías"
+          ]
+        },
+        {
+          "name": "QueRecetasCumplenDieta",
+          "slots": [
+            {
+              "name": "dieta",
+              "type": "Dietas",
+              "samples": [
+                "Quiero que sean {dieta}",
+                "Recetas que sean {dieta}",
+                "{dieta}",
+                "Tienen que ser {dieta}"
+              ]
+            }
+          ],
+          "samples": [
+            "Qué recetas cumplen ser {dieta}",
+            "Qué recetas cumplen la dieta",
+            "Cuáles son las recetas {dieta}",
+            "Qué recetas son {dieta}"
+          ]
+        },
+        {
+          "name": "IngredientesReceta",
+          "slots": [
+            {
+              "name": "plato",
+              "type": "Platos",
+              "samples": [
+                "sobre {plato}",
+                "Quiero saber los ingredientes de {plato}",
+                "de el {plato}",
+                "de la {plato}",
+                "de {plato}",
+                "{plato}"
+              ]
+            }
+          ],
+          "samples": [
+            "Qué necesito",
+            "Qué ingredientes necesito",
+            "Qué ingredientes necesito para hacer el plato",
+            "Qué ingredientes necesito para cocinar el plato",
+            "Qué necesito para cocinar la {plato}",
+            "Qué necesito para cocina el {plato}",
+            "Qué ingredientes tiene la {plato}",
+            "Qué ingredientes tiene el {plato}",
+            "Qué ingredientes tiene el plato"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Cheesecake"
+              }
+            },
+            {
+              "name": {
+                "value": "Pancakes con chocolate"
+              }
+            },
+            {
+              "name": {
+                "value": "Arroz frito con gambón"
+              }
+            },
+            {
+              "name": {
+                "value": "Spaguetti con Panceta"
+              }
+            },
+            {
+              "name": {
+                "value": "Halva de zanahorias"
+              }
+            },
+            {
+              "name": {
+                "value": "Tacos"
+              }
+            },
+            {
+              "name": {
+                "value": "Fish and chips",
+                "synonyms": [
+                  "Pescado con patatas"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Rollitos de salmón ahumado"
+              }
+            },
+            {
+              "name": {
+                "value": "Pollo asado"
+              }
+            },
+            {
+              "name": {
+                "value": "Crema fría de yogur"
+              }
+            }
+          ],
+          "name": "Platos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vegetariano"
+              }
+            },
+            {
+              "name": {
+                "value": "sin pescado"
+              }
+            },
+            {
+              "name": {
+                "value": "sin huevo"
+              }
+            },
+            {
+              "name": {
+                "value": "sin gluten"
+              }
+            },
+            {
+              "name": {
+                "value": "sin marisco"
+              }
+            },
+            {
+              "name": {
+                "value": "sin soja"
+              }
+            },
+            {
+              "name": {
+                "value": "sin frutos secos"
+              }
+            },
+            {
+              "name": {
+                "value": "sin cacahuetes"
+              }
+            },
+            {
+              "name": {
+                "value": "sin lactosa"
+              }
+            }
+          ],
+          "name": "Dietas"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "CuantasCalorias",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "plato",
+              "type": "Platos",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.919909223870.1226863050094"
+              }
+            }
+          ]
+        },
+        {
+          "name": "QueRecetasCumplenDieta",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "dieta",
+              "type": "Dietas",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1077819533535.1419834105679"
+              }
+            }
+          ]
+        },
+        {
+          "name": "IngredientesReceta",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "plato",
+              "type": "Platos",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1241543322324.1112738503275"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.919909223870.1226863050094",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Me podrías especificar el plato, por favor?"
+          },
+          {
+            "type": "PlainText",
+            "value": "De qué plato estás hablando?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Cuál es el plato del que quieres saber las calorías?"
+          },
+          {
+            "type": "PlainText",
+            "value": "De qué plato quieres saber las calorías?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1077819533535.1419834105679",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Qué dieta quieres que cumplan las recetas?"
+          },
+          {
+            "type": "PlainText",
+            "value": "De qué dieta hablas?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qué dieta?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Cuál es la dieta que deben cumplir?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1241543322324.1112738503275",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "De cuál plato quieres los ingredientes?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Cuál es el plato del que quieres los ingredientes?"
+          },
+          {
+            "type": "PlainText",
+            "value": "De qué plato hablas?"
+          },
+          {
+            "type": "PlainText",
+            "value": "De qué plato quieres saber los ingredientes?"
+          },
+          {
+            "type": "PlainText",
+            "value": "De qué plato quieres los ingredientes?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "16"
+}
